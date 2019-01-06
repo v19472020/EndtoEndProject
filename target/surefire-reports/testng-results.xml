@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="201376" started-at="2019-01-06T03:21:33Z" finished-at="2019-01-06T03:24:55Z">
+    <groups>
+    </groups>
+    <test name="HomePageTest" duration-ms="145199" started-at="2019-01-06T03:21:33Z" finished-at="2019-01-06T03:23:58Z">
+      <class name="academy.HomePageTest">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:academy.HomePageTest@291ae]" name="initializeBrowser" is-config="true" duration-ms="14" started-at="2019-01-06T03:21:33Z" finished-at="2019-01-06T03:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="basePageNavigLogin(java.lang.String, java.lang.String)[pri:0, instance:academy.HomePageTest@291ae]" name="basePageNavigLogin" duration-ms="47697" started-at="2019-01-06T03:21:33Z" data-provider="getData" finished-at="2019-01-06T03:22:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vijsenreddykunduru@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigLogin -->
+        <test-method status="PASS" signature="basePageNavigLogin(java.lang.String, java.lang.String)[pri:0, instance:academy.HomePageTest@291ae]" name="basePageNavigLogin" duration-ms="51107" started-at="2019-01-06T03:22:21Z" data-provider="getData" finished-at="2019-01-06T03:23:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[payalpanday16@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Panday]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigLogin -->
+        <test-method status="PASS" signature="basePageNavigLogin(java.lang.String, java.lang.String)[pri:0, instance:academy.HomePageTest@291ae]" name="basePageNavigLogin" duration-ms="46114" started-at="2019-01-06T03:23:12Z" data-provider="getData" finished-at="2019-01-06T03:23:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Indhra@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sena]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigLogin -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:academy.HomePageTest@291ae]" name="CloseBrowser" is-config="true" duration-ms="242" started-at="2019-01-06T03:23:58Z" finished-at="2019-01-06T03:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- academy.HomePageTest -->
+    </test> <!-- HomePageTest -->
+    <test name="Validate TitleTest" duration-ms="26035" started-at="2019-01-06T03:23:59Z" finished-at="2019-01-06T03:24:25Z">
+      <class name="academy.ValidateTitleTest">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:academy.ValidateTitleTest@441772e]" name="initializeBrowser" is-config="true" duration-ms="25511" started-at="2019-01-06T03:23:59Z" finished-at="2019-01-06T03:24:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:academy.ValidateTitleTest@441772e]" name="basePageNavigation" duration-ms="240" started-at="2019-01-06T03:24:24Z" finished-at="2019-01-06T03:24:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:academy.ValidateTitleTest@441772e]" name="CloseBrowser" is-config="true" duration-ms="283" started-at="2019-01-06T03:24:24Z" finished-at="2019-01-06T03:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- academy.ValidateTitleTest -->
+    </test> <!-- Validate TitleTest -->
+    <test name="ValidateNavigationBarTest" duration-ms="29780" started-at="2019-01-06T03:24:25Z" finished-at="2019-01-06T03:24:55Z">
+      <class name="academy.ValidateNavigationBarTest">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:academy.ValidateNavigationBarTest@6c80d78a]" name="initializeBrowser" is-config="true" duration-ms="27294" started-at="2019-01-06T03:24:25Z" finished-at="2019-01-06T03:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="navigationBar()[pri:0, instance:academy.ValidateNavigationBarTest@6c80d78a]" name="navigationBar" duration-ms="167" started-at="2019-01-06T03:24:52Z" finished-at="2019-01-06T03:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationBar -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:academy.ValidateNavigationBarTest@6c80d78a]" name="CloseBrowser" is-config="true" duration-ms="2317" started-at="2019-01-06T03:24:52Z" finished-at="2019-01-06T03:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- academy.ValidateNavigationBarTest -->
+    </test> <!-- ValidateNavigationBarTest -->
+  </suite> <!-- Suite -->
+</testng-results>
